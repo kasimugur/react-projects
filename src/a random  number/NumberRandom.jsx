@@ -1,3 +1,4 @@
+import './css/style.css'
 export default function NumberRandom() {
   return (
     <>
@@ -7,11 +8,11 @@ export default function NumberRandom() {
           <p>Random Number . <span>5</span></p>
         </div>
         <div className="numContainer">
-          <div>
+          <div className='box-input'>
             <p>Min:</p>
             <input type="number" />
           </div>
-          <div>
+          <div className='box-input'>
             <p>Max:</p>
             <input type="number" />
           </div>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
-      <nav>
+      <nav style={{}}>
         <div className="header-nav">
           <NavLink to={'/'} >projects</NavLink>
 

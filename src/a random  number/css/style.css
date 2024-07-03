@@ -1,0 +1,41 @@
+.hero {
+  background: rgb(220, 164, 164);
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.hero .container {
+  margin-top: 9% !important;
+  height: 50%;
+  background: rgb(248, 199, 199);
+  background-repeat: no-repeat;
+  background-size: 30px 10px;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero .container button {
+  padding: 4px;
+  margin-top: 3em;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+.hero .container .randomNum {
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: white;
+}
+.hero .container .numContainer {
+  gap: 50px;
+  display: flex;
+}
+.hero .container .numContainer input {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */
