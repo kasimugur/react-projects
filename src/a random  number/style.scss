@@ -1,4 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
 .hero {
+ font-weight: bold;
   background: rgb(220, 164, 164);
   // background-size: auto;
   // background-repeat: no-repeat;
@@ -6,39 +13,41 @@
   height: 100vh;
   display: flex;
   overflow: hidden;
-
-  .container {
-    margin-top: 9% !important;
-    height: 50%;
-    background: rgb(248, 199, 199);
-    background-repeat: no-repeat;
-    background-size: 30px  10px ;
-    margin: 0 auto;
+border: none;
+.container {
+  margin-top: 9% !important;
+  height: 50%;
+  background: rgb(248, 199, 199);
+  background-repeat: no-repeat;
+  background-size: 30px  10px ;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  & button {
+    border: none;
+    padding: 4px;
+    margin-top: 3em;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+  
+  .randomNum {
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    margin-bottom: 15px;
+  }
+  
+  .numContainer {
+    gap: 50px;
     display: flex;
-    padding: 25px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    // width: 100%;
-    
-    & button {
-      padding: 4px;
-      margin-top: 3em;
-      padding-left: 50px;
-      padding-right: 20px;
-    }
-    
-    .randomNum {
-      text-align: start;
-      padding-left: 20px;
-      padding-right: 20px;
-      background: white;
-    }
-    
-    .numContainer {
-      gap: 50px;
-      display: flex;
-      & input{
+    & input{
+      border: none;
         padding: 5px;
         display: flex;
         flex-wrap: wrap;
