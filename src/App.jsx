@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import SiteRoutes from '../SiteRoutes'
+import SiteRoutes from './SiteRoutes'
 
 function App() {
 

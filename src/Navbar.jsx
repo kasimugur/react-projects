@@ -1,18 +1,19 @@
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
-    <nav>
-      <div className="header-nav">
-        <header>projects</header>
-      
-      <div className="navbar-nav">
-      
-      </div>
+      <nav>
+        <div className="header-nav">
+          <NavLink to={'/'} >projects</NavLink>
 
-      </div>
+          <div className="navbar-nav">
+            <NavLink to={'/numberRandom'} > a random number</NavLink>
+          </div>
 
-    </nav>
+        </div>
+
+      </nav>
     </>
   )
 }
