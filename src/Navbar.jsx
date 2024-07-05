@@ -1,15 +1,16 @@
 import { NavLink } from "react-router-dom";
-
+import './css/navbar.css'
 export default function Navbar() {
   return (
     <>
-      <nav style={{}}>
+      <nav className="navbar">
         <div className="header-nav">
-          <NavLink to={'/'} >projects</NavLink>
-
+          <NavLink className="header-link" to={'/'} >projects</NavLink>
+</div>
           <div className="navbar-nav">
-            <NavLink to={'/numberRandom'} > a random number</NavLink>
-          </div>
+            <NavLink className="nav-link" to={'/numberRandom'} > a random number</NavLink>
+            <NavLink className="nav-link" to={'/todoList'} > todo list </NavLink>
+          
 
         </div>
 
