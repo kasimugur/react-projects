@@ -6,11 +6,11 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="header-nav">
           <NavLink className="header-link" to={'/'} >projects</NavLink>
-</div>
-          <div className="navbar-nav">
-            <NavLink className="nav-link" to={'/numberRandom'} > a random number</NavLink>
-            <NavLink className="nav-link" to={'/todoList'} > todo list </NavLink>
-          
+        </div>
+        <div className="navbar-nav">
+          <NavLink className="nav-link" to={'/numberRandom'} > a random number</NavLink>
+          <NavLink className="nav-link" to={'/todoList'} > todo list </NavLink>
+          <NavLink className="nav-link" to={'/quoteGenerator'} > Quote Generator </NavLink>
 
         </div>
 
