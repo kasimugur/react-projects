@@ -17,7 +17,7 @@ export default function QuoteGenerator() {
     getQuote();
   }, [])
 
-  // https://type.fit/api/quotes
+  // https://type.fit/api/quotes 
   return (
     <>
       <div className="app">
